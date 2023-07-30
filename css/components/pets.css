@@ -1,0 +1,32 @@
+.pets {
+  text-align: center;
+  background-color: var(--light-500);
+}
+
+.pets .container {
+  position: relative;
+}
+
+.pets__slider {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pets__slider-btns {
+  position: absolute;
+  padding: 0 40px;
+  left: 0;
+  right: 0;
+  top: 49%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 0;
+}
+
+.pets__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 30px;
+}

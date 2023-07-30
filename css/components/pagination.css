@@ -1,0 +1,9 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pagination__item--num {
+  background-color: var(--primary);
+}

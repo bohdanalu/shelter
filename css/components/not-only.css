@@ -1,0 +1,43 @@
+.not-only {
+  background: url(../../assets/images/noise_transparent@2x.png),
+    radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%);
+  color: var(--light-200);
+  padding-top: 113px;
+  overflow: hidden;
+}
+
+.not-only__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.not-only__content {
+  align-self: center;
+  max-width: 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  align-items: start;
+  flex-shrink: 1;
+}
+
+.not-only__title {
+  letter-spacing: normal;
+}
+
+.not-only__title {
+  font-size: 44px;
+  line-height: 1.3;
+  color: var(--light);
+}
+
+.not-only__text {
+  line-height: 1.6;
+}
+
+.not-only__img-wrap {
+  width: 58%;
+  min-width: 260px;
+  padding-top: 65px;
+  flex-shrink: 0;
+}

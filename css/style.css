@@ -1,0 +1,17 @@
+@import "./fonts.css";
+@import "./normalize.css";
+@import "./root.css";
+@import "./global.css";
+
+@import "./components/header.css";
+@import "./components/not-only.css";
+@import "./components/about.css";
+@import "./components/pets.css";
+@import "./components/card.css";
+@import "./components/help.css";
+@import "./components/donation.css";
+@import "./components/pagination.css";
+@import "./components/footer.css";
+@import "./components/modal.css";
+
+@import "./media.css";

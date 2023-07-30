@@ -1,0 +1,17 @@
+:root {
+  --light: #ffffff;
+  --light-900: #fafafa;
+  --light-500: #f6f6f6;
+  --light-200: #cdcdcd;
+  --light-100: #b2b2b2;
+  --primary: #f1cdb3;
+  --primary-light: #fddcc4;
+  --text: #545454;
+  --text-200: #4c4c4c;
+  --text-900: #292929;
+
+
+  --arial: Arial, Helvetica, sans-serif;
+
+  --georgia: Georgia, "Times New Roman", Times, serif;
+}

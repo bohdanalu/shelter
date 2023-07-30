@@ -1,0 +1,57 @@
+.donation {
+  background-color: var(--light-500);
+}
+
+.donation__wrap {
+  max-width: 915px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  row-gap: 60px;
+}
+
+.donation__img-wrap {
+  padding: 10px 0;
+}
+
+.donation__img {
+  object-fit: contain;
+}
+
+.donation__content {
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.donation__card {
+  position: relative;
+  display: inline-block;
+  border-radius: 9px;
+  background-color: var(--primary);
+  padding: 10px 15px 10px 60px;
+  font-size: 20px;
+  line-height: 1.3;
+  transition: background-color 0.2s ease;
+}
+
+.donation__bank {
+  line-height: 1.1;
+}
+
+.donation__card:before {
+  position: absolute;
+  content: url(../../assets/icons/credit-card.svg);
+  left: 15px;
+  top: calc(50% - 11px);
+}
+
+.donation__description > p {
+  font-family: Arial-italic;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--light-100);
+}

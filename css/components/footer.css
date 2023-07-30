@@ -1,0 +1,77 @@
+.footer {
+  padding-top: 40px;
+  flex-shrink: 0;
+  background: url(../../assets/images/noise_transparent@2x.png),
+    radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%);
+  color: var(--primary);
+  font-size: 20px;
+}
+
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__block {
+  max-width: 290px;
+  max-height: 310px;
+}
+
+.footer__block:not(:last-child) {
+  padding-top: 15px;
+}
+.footer__title {
+  color: var(--light);
+}
+
+.footer__title--qw {
+  margin-bottom: 45px;
+}
+
+.footer__title--addr {
+  margin-bottom: 35px;
+}
+
+.footer__link {
+  position: relative;
+  display: block;
+  padding-left: 60px;
+  font-size: 20px;
+}
+
+.footer__link::before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 32px;
+  left: 0;
+  top: 0;
+}
+
+.footer__item:has([href^="mailto"]) {
+  margin-bottom: 50px;
+}
+
+.footer__item:has(.footer__link--addr):first-child {
+  margin-bottom: 25px;
+}
+
+.footer__link--mail::before {
+  content: url(../../assets/icons/icons-contacts/icon-email.svg);
+}
+
+.footer__link--tel::before {
+  content: url(../../assets/icons/icons-contacts/icon-phone.svg);
+}
+
+.footer__link--addr {
+  display: flex;
+  align-items: center;
+  padding-left: 42px;
+  min-height: 46px;
+}
+
+.footer__link--addr::before {
+  content: url(../../assets/icons/icons-contacts/icon-marker.svg);
+  top: 5px;
+}
